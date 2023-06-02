@@ -18,7 +18,7 @@ logotype.src = "./image/logo.png";
 const logistic = document.createElement("h2");
 logistic.classList.add("logistic");
 logo.appendChild(logistic);
-logistic.textContent = "LOGISTIC POLSKA";
+logistic.textContent = "LOGISTIC POLSKAA";
 
 const ul = `
     <ul>
