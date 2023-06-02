@@ -18,12 +18,12 @@ navigation.appendChild(nav);
 
 const ul = `
     <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-        <li>4</li>
-        <li>5</li>
-        <li>6</li>
+        <li><a href = ""><p>fvdf1</p></a></li>
+        <li><a href = ""><p>2dfg<p></a></li>
+        <li><a href = ""><p>3fgv<p></a></li>
+        <li><a href = ""><p>4ergerg<p></a></li>
+        <li><a href = ""><p>5cergsf<p></a></li>
+        <li><a href = ""><p>6srfg<p></a></li>
     </ul>
 `;
 
