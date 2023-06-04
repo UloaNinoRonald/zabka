@@ -1,18 +1,34 @@
 @import "./style/main.scss";
 @import "./style/nav.scss";
 @import "./style/contact.scss";
+@import "./style/variadles";
+
 body {
   margin: 0;
 }
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: #e9dcdc;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #c1bebe;
+  border-radius: 8px;
+  border: 2px solid #7b7979;
+}
+
 .wrapper {
   width: 100%;
   height: 100vh;
   margin: 0px;
   display: flex;
+  position: relative;
 }
 
 .boxContainer {
   width: 100%;
   height: 100%;
   display: flex;
+  position: relative;
 }
