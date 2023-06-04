@@ -1,3 +1,6 @@
+::-webkit-scrollbar {
+  background: black;
+}
 .navigation {
   position: fixed;
   width: 20%;
@@ -7,9 +10,15 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgb(241, 182, 191)), to(#555252));
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(241, 182, 191)),
+    to(#555252)
+  );
   background: linear-gradient(rgb(241, 182, 191), #555252);
 }
 
@@ -62,12 +71,12 @@ p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .logotype {
