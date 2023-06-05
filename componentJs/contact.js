@@ -53,10 +53,25 @@ const leftLi = `
 telefon.innerHTML = leftLi;
 
 const socialNetwork = `
- <a href=""><i class="fa-brands fa-viber"></i></a>
- <a href=""><i class="fa-brands fa-facebook"></i></a>
- <a href=""><i class="fa-brands fa-instagram"></i></a>
- <a href=""><i class="fa-brands fa-telegram"></i></a>
- <a href=""><i class="fa-sharp fa-solid fa-phone"></i></a>
+   <a href="https://www.viber.com/ru/"> 
+        <i class="fa-brands fa-viber">
+        </i>
+   </a>
+   <a href="">  
+        <i class="fa-brands fa-facebook">
+        </i>
+   </a>
+   <a href="">  
+        <i class="fa-brands fa-instagram">
+        </i>
+   </a>
+   <a href="">  
+        <i class="fa-brands fa-telegram">
+        </i>
+   </a>
+   <a href="">  
+        <i class="fa-sharp fa-solid fa-phone">
+        </i>
+   </a>
 `;
 social.innerHTML = socialNetwork;
