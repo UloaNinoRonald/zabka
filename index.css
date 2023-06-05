@@ -23,8 +23,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgb(241, 182, 191)), to(#555252));
-  background: linear-gradient(rgb(241, 182, 191), #555252);
 }
 .navigation ul {
   width: 100%;
@@ -42,7 +40,7 @@
   margin-top: 20px;
 }
 .navigation li :hover {
-  background-color: #696565;
+  background-color: #001b6d;
   color: white;
 }
 .navigation a {
@@ -51,7 +49,7 @@
   height: 100%;
   text-align: center;
   margin-top: auto;
-  color: #292828;
+  color: #001b6d;
   text-decoration: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -81,6 +79,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 255, 255)), to(#385bc4));
+  background: linear-gradient(rgb(255, 255, 255), #385bc4);
 }
 
 .logo {
@@ -186,17 +186,19 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 15px;
+  width: 10px;
+  height: 50px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #e9dcdc;
+  background: #ffffff;
+  height: 20px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #c1bebe;
+  background-color: #385bc4;
   border-radius: 8px;
-  border: 2px solid #7b7979;
+  border: 2px solid #385bc4;
 }
 
 .wrapper {
