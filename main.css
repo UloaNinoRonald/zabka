@@ -1,100 +1,15 @@
-::-webkit-scrollbar {
-  background: black;
-}
-.navigation {
-  position: fixed;
-  width: 20%;
+.main {
+  max-width: 50%;
   height: 100%;
+  margin: 0 25%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(rgb(241, 182, 191)),
-    to(#555252)
-  );
-  background: linear-gradient(rgb(241, 182, 191), #555252);
-}
-
-.logo {
-  width: 100%;
-  height: 30%;
-}
-
-li {
-  list-style: none;
-  text-transform: uppercase;
-  height: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  border: 1px solid blue;
-  margin-top: 20px;
-}
-li :hover {
-  background-color: #696565;
-  color: white;
-}
-
-ul {
-  width: 100%;
-  margin: auto;
-  padding: 0;
-}
-
-a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  margin-top: auto;
-  color: #292828;
-  text-decoration: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-p {
-  vertical-align: center;
-  margin: auto;
-}
-
-.logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
-.logotype {
-  max-width: 150px;
-  max-height: 150px;
-}
-
-h2 {
-  font-size: 30px;
-  margin: auto;
-}
-
-.contact {
-  width: 30%;
-  border: 3px solid blue;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: scroll;
+  padding-left: 5px;
 }
 
 .wrapper {
@@ -105,19 +20,4 @@ h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.boxContainer {
-  width: 100%;
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.main {
-  width: 100%;
-  margin-left: 2px;
-  margin-right: 2px;
-  border: 3px solid green;
 }
